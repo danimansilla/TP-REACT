@@ -4,22 +4,15 @@ import Foto from './Foto';
 import Ciudad from './Ciudad';
 function PerfilUsuario(){
     return (
-        <div className="jumbotron">
-        <p className="lead text-center perfil">Perfil de usuario</p> 
-        <div className="colum">
-      
-            <div className="col-sm-4">
-                <Nombre />
-                <Ciudad />
-            </div>
-            <div className="col-sm-8">
-            <Foto/>
-            </div>
-            </div>
-           
-            
-     
-  </div>
+        <div className="row" style={{  display: "flex", background: "black",margin: "5px"}}>
+                <div className="column" style={{flex: "40%",  padding: "10px",height: "300px" }} >
+                        <Nombre />
+                        <Ciudad />
+                </div>
+                <div className="column" style={{flex: "50%",  padding: "10px",height: "300px" }}>
+                        <Foto />
+                </div>
+        </div>
     )
 }
 export default PerfilUsuario;

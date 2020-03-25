@@ -5,9 +5,26 @@ function Ciudad(){
     
         <div style={{display: "block"}}>
         <div className="row"> 
-            <label  className="col-sm-12 col-form-label">Ciudad</label><br/>
-            <div className="col-sm-12">
-                <input type="text" className="form-control-plaintext" id="ciudad" value="Libertad" disabled></input>
+            <div className="ciudadDiv">
+                <label className="label"
+                  style={{
+                    width: "90%",     
+                    color: "white",
+                    padding: "14px 20px",
+                    margin: "8px 0",
+                    border: "none",
+                    borderRadius: "4px",
+                    cursor: "pointer"
+                }}>Ciudad</label>
+                <input type="text" className="form-control-plaintext" id="ciudad" value="Libertad" disabled
+                style=
+                {{
+                width: "90%",
+                padding: "12px 20px",
+                margin: "8px 0",
+                display: "inline-block",
+                border: "1px solid #ccc",
+                borderRadius: "4px"}}></input>
 
             </div>
         </div>

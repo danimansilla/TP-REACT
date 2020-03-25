@@ -6,11 +6,9 @@ function App() {
   return (
     <div className="App">
     <div className="app container">
+    <div className="Titulo" style={{background: "grey", color:"black", padding: "10px", margin: "5px"}}>Perfil de usuario </div> 
         <PerfilUsuario />
-      </div>
-      {/* <header className="App-header">
-      </header> */}
-    
+      </div>  
     </div>
   );
 }
