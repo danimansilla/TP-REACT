@@ -1,0 +1,8 @@
+.imagen{
+    background: url(../img/perfil.jpeg.jpeg) no-repeat 0% 0%;
+	background-color: #000;
+	line-height: 1.4em;
+	margin: 25px 0 25px 15px;
+	padding: 50px 8px 5px 20px;
+	text-decoration: none;
+}
